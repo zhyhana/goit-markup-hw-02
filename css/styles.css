@@ -43,7 +43,7 @@ body {
     box-sizing: border-box;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -54,7 +54,7 @@ body {
     clip: rect(0, 0, 0, 0);
     clip-path: inset(50% 50% 50% 50%);
     margin: -1px;
-}
+} */
 
 .main-title {
     font-weight: 900;
@@ -79,7 +79,6 @@ body {
     line-height: 1.14em;
     text-transform: uppercase;
 }
-.container {}
 .logo {
     font-family: var(--logo-font);
     font-style: normal;
@@ -95,44 +94,8 @@ body {
 .logo-white {
     color: var(--secondary-text-color);
 }
-.social-link-link {}
-.social-link-item:not(:last-child) {}
-.social-link-link:hover,
-.social-link-link:focus {}
-
-
-.header {}
-.header-container,
-.nav-container {}
-.header-container {}
-.header-logo {}
-.header-nav-link:hover,
-.header-nav-link:focus {
-    color: #2196F3;
-}
-
-.header-contact-item {}
-.header-nav-item:not(:last-child) {}
-.header-contact-item:not(:last-child) {}
-.header-contact-item::before {}
-.header-contact-link {
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
-.contact-link:hover,
-.contact-link:focus {
-    color: #2196F3;
-}
-
-
-.hero {
-    text-align: center;
-}
-.hero-container {}
-.hero-title {}
 .main-button {
-    font-family: Roboto;
+    font-family: var(--text-font);
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -140,33 +103,34 @@ body {
     letter-spacing: 0.06em;
     color: var(--secondary-text-color);
 }
-.main-button:hover,
-.main-button:focus {}
 
-.feature {}
-.feature-item {}
-.feature-item:not(:last-child) {}
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--accent-color);
+}
+.header-contact-link {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
 
-.permanent-customers {}
-.permanent-customers .section-title {}
-.permanent-customers-item {}
-.permanent-customers-item:not(:last-child) {}
+.hero {
+    text-align: center;
+}
 
 .footer {
     color: var(--secondary-text-color);
 }
-.footer-info {}
-.footer-logo {}
 .footer-contact {
     font-style: normal;
 }
-.footer-contact-item:not(:last-child) {}
 .footer-contact-link {
     color: rgba(255, 255, 255, 0.6);
 }
 .footer .item-title {
     color: var(--secondary-text-color);
 }
-.footer-join-in,
-.footer-subscribe {}
-.footer-join-in {}
