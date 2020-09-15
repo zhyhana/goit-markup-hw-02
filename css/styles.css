@@ -94,11 +94,13 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 }
-.main-button {
+
+.header-menu-link {
+  color: var(--title-color);
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-menu-link:hover,
+.header-menu-link:focus {
   color: var(--accent-color);
 }
 .header-contact-link {
